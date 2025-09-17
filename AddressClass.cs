@@ -1,0 +1,114 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Exchange.WebServices.Data;
+
+namespace gal_dump
+{
+    class AddressClass
+    {
+        public String Alias = String.Empty;
+        public String AllowedResponseActions = String.Empty;
+        public String ArchiveTag = String.Empty;
+        public String AssistantName = String.Empty;
+        public String AssistantPhone = String.Empty;
+        public String Attachments = String.Empty;
+        public String Birthday = String.Empty;
+        public String BusinessAddressCity = String.Empty;
+        public String BusinessAddressCountryOrRegion = String.Empty;
+        public String BusinessAddressPostalCode = String.Empty;
+        public String BusinessAddressState = String.Empty;
+        public String BusinessAddressStreet = String.Empty;
+        public String BusinessFax = String.Empty;
+        public String BusinessHomePage = String.Empty;
+        public String BusinessPhone = String.Empty;
+        public String BusinessPhone2 = String.Empty;
+        public String CarPhone = String.Empty;
+        public String Categories = String.Empty;
+        public String Children = String.Empty;
+        public String Companies = String.Empty;
+        public String CompanyMainPhone = String.Empty;
+        public String CompanyName = String.Empty;
+        public String CompleteName = String.Empty;
+        public String ContactSource = String.Empty;
+        public String ConversationId = String.Empty;
+        public String Culture = String.Empty;
+        public String DateTimeCreated = String.Empty;
+        public String DateTimeReceived = String.Empty;
+        public String DateTimeSent = String.Empty;
+        public String Department = String.Empty;
+        public String DirectoryId = String.Empty;
+        public String DirectReports = String.Empty;
+        public String DisplayName = String.Empty;
+        public String DisplayTo = String.Empty;
+        public String EmailAddress1 = String.Empty;
+        public String EmailAddress2 = String.Empty;
+        public String EmailAddress3 = String.Empty;
+        public String EmailAddresses = String.Empty;
+        public String EntityExtractionResult = String.Empty;
+        public String Flag = String.Empty;
+        public String Generation = String.Empty;
+        public String GivenName = String.Empty;
+        public String HasAttachments = String.Empty;
+        public String HasPicture = String.Empty;
+        public String HomeAddressCity = String.Empty;
+        public String HomeAddressCountryOrRegion = String.Empty;
+        public String HomeAddressPostalCode = String.Empty;
+        public String HomeAddressState = String.Empty;
+        public String HomeAddressStreet = String.Empty;
+        public String HomeFax = String.Empty;
+        public String HomePhone = String.Empty;
+        public String HomePhone2 = String.Empty;
+        public String Id = String.Empty;
+        public String ImAddress1 = String.Empty;
+        public String ImAddress2 = String.Empty;
+        public String ImAddress3 = String.Empty;
+        public String ImAddresses = String.Empty;
+        public String Initials = String.Empty;
+        public String InstanceKey = String.Empty;
+        public String Isdn = String.Empty;
+        public String JobTitle = String.Empty;
+        public String LastModifiedName = String.Empty;
+        public String LastModifiedTime = String.Empty;
+        public String Manager = String.Empty;
+        public String ManagerMailbox = String.Empty;
+        public String MiddleName = String.Empty;
+        public String Mileage = String.Empty;
+        public String MobilePhone = String.Empty;
+        public String NickName = String.Empty;
+        public String Notes = String.Empty;
+        public String OfficeLocation = String.Empty;
+        public String OtherAddressCity = String.Empty;
+        public String OtherAddressCountryOrRegion = String.Empty;
+        public String OtherAddressPostalCode = String.Empty;
+        public String OtherAddressState = String.Empty;
+        public String OtherAddressStreet = String.Empty;
+        public String OtherFax = String.Empty;
+        public String OtherTelephone = String.Empty;
+        public String Pager = String.Empty;
+        public String ParentFolderId = String.Empty;
+        public String PhoneNumbers = String.Empty;
+        public String PhoneticFirstName = String.Empty;
+        public String PhoneticFullName = String.Empty;
+        public String PhoneticLastName = String.Empty;
+        public String Photo = String.Empty;
+        public String PhysicalAddresses = String.Empty;
+        public String PolicyTag = String.Empty;
+        public String PostalAddressIndex = String.Empty;
+        public String PrimaryPhone = String.Empty;
+        public String Profession = String.Empty;
+        public String RadioPhone = String.Empty;
+        public String SpouseName = String.Empty;
+        public String StoreEntryId = String.Empty;
+        public String Surname = String.Empty;
+        public String Telex = String.Empty;
+        public String TtyTddPhone = String.Empty;
+        public String WeddingAnniversary = String.Empty;
+
+        public String Address = String.Empty;
+        public MailboxType? MailBoxType;
+
+
+    }
+}
